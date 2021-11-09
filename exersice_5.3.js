@@ -55,13 +55,12 @@ let arrEvery = arr.every((val,ind,arr) => val === arr[0])
 console.log(arrEvery)
 */
 
-
+/* Задание 7
 let arr = [1,2,3,4,5,6,7,8,9,0,2,'bla bla bla'];
 let sumOdd = 0;
 let sumPar = 0;
 let nul = 0;
 let str = 0;
-
 for(i = 0; i < arr.length; i++) {
   let num = arr[i];
   if(typeof num === 'number' && num % 2 === 0 && num != 0) {
@@ -76,7 +75,7 @@ for(i = 0; i < arr.length; i++) {
   }
 }
 console.log(`Четных: ${sumPar}, Нечетных: ${sumOdd}, Строки: ${str}, Ноль: ${nul} `)
-
+*/
 
 
 /* Задание 8
