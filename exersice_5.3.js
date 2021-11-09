@@ -56,7 +56,6 @@ console.log(arrEvery)
 */
 
 
-/*  Задание 7
 let arr = [1,2,3,4,5,6,7,8,9,0,2,'bla bla bla'];
 let sumOdd = 0;
 let sumPar = 0;
@@ -76,8 +75,9 @@ for(i = 0; i < arr.length; i++) {
     nul++
   }
 }
-console.log('Четных ' + sumPar + '\nНечетные ' + sumOdd + '\nСтроки ' + str + '\nНоль '+ nul)
-*/
+console.log(`Четных: ${sumPar}, Нечетных: ${sumOdd}, Строки: ${str}, Ноль: ${nul} `)
+
+
 
 /* Задание 8
 let books = new Map([
